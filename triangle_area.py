@@ -13,15 +13,15 @@ def area(height, base):
     area = height * base / 2
 
     # output
-    print("The area of the triangle is {0} cm².".format(area))
+    print("\nThe area of the triangle is {0} cm².".format(area))
 
 
 def main():
     # I am main, I receive input and call functions
 
     # input
-    str_height = input("Enter radius of the circle in mm: ")
-    str_base = input("Enter radius of the circle in mm: ")
+    str_height = input("Input triangle height in cm: ")
+    str_base = input("Input triangle base in cm: ")
     try:
         float_height = float(str_height)
         float_base = float(str_base)
