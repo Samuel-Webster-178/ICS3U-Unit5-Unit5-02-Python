@@ -25,10 +25,10 @@ def main():
     try:
         float_height = float(str_height)
         float_base = float(str_base)
-    except Exception:
-        print("Invalid input")
-    finally:
         area(float_height, float_base)
+    except Exception:
+        print("\nInvalid input")
+    finally:
         print("\nDone.")
 
 
